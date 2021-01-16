@@ -1,21 +1,86 @@
-<!DOCTYPE html> // Le dice al navegador que todo en adelante es HTML5
-<html lang=""> //Lleva todas las etiquetas del proyecto, tiene un atributo llamado lang y le dice al navegador el lenguaje del proyecto.
-    <head> //Va ir todo lo que es importante para el navegador para poder cargar el proyecto, pero no es visual para el usuario final, dependencias, fuentes y css. (Cerebro)
+<!DOCTYPE html> 
+<html lang=""> 
+    <head> 
         
-        <meta charset="UTF-8"/>//Las etiquetas metas le dan cierta información al navegador para que sepan como tratar nuestro proyecto. El atributo UTF-8 para entender caracteres especiales, se pueden utilizar emojis en la página.
+        <meta charset="UTF-8"
         
-        <meta name="description" content="Esta página te mostrará fotos de gatos"/> /* Es muy importante, porque nos ayuda al posicionamiento de la página en Google a través de una descripción. */
+        <meta name="description" content="Esta página te mostrará fotos de gatos"/> 
         
-        <meta name="robots" content="index, follow"/> /* Acá estamos autorizando para que los robots de los buscadores que puedan ayudarnos a colocar nuestra página con relación a la busqueda que se hace. Lo que quiere decir el index, follow es: "En nuestro index tienes la autorización de poder ayudarme a colocar nuestra página que tenga que ver con nuestro contenido." */
+        <meta name="robots" content="index, follow"/> 
+        <link rel="stylesheet" href="style.css"> 
 
-        <title> /* Es lo que se ve en la pestaña*/
+        <title> 
         </title>
 
-        <meta name="viewport" content= "width=device-width, initial-scale=1.0"/>
-
+        <meta name="viewport" content= "width=device-width, initial-scale=1.0"/> 
     </head>
     
-    <body> // Imagenes, videos , texto, todas las cosas interactivas del proyecto. (Brazos, piernas, dorso) (Visible)
+    <body> 
+        <header>
+            <nav> 
 
+            </nav>
+        </header> 
+        
+        <main> 
+            <h1>Lista del Super</h1>
+            <section> 
+                
+                <article class= "art-1"> 
+                    <h1>Sección de frutas</h1>
+                    <ul>
+                    
+                        <li>Frutas
+                            <ol>
+                                <li>Banano</li>
+                                <li>Manzana</li>
+                                <li>Uvas</li>
+                                <li>Guanabana</li>
+                                <li>Guayaba</li>
+                            </ol>
+                        </li>
+                    </ul>
+                </article >
+                <article class="art-2"> 
+                    <h1>Sección de Verduras</h1>
+                    <ul>
+                    
+                        <li>Verduras
+                            <ol>
+                                <li>Papa</li>
+                                <li>Chayote</li>
+                                <li>Yuca</li>
+                                <li>Tiquisque</li>
+                                <li>Ayote</li>
+                            </ol>
+                        </li>
+                    </ul>
+                </article>
+                <article class="art-3"> 
+                    <h1>Sección de Fritanga</h1>
+                    <ul>
+                    
+                        <li>Fritangas
+                            <ol>
+                                <li><a href="https://www.carnesdonfernando.com/wp-content/uploads/2020/07/salchichon.jpg">Salchichon</a></li>
+                                <li>Chorizo</li>
+                                <li>Salchicha</li>
+                                <li>Chorizo chino</li>
+                                <li>Salchichon ahumado</li>
+                            </ol>
+                        </li>
+                    </ul>
+                </article>
+
+
+            </section>
+          
+        </main>
+       
+        <footer>
+
+        </footer>
+        
+        <a href="#"></a> 
     </body>
 </html>

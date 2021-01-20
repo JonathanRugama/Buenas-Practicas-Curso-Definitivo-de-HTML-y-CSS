@@ -1,0 +1,29 @@
+
+.articles {
+    display: flex;
+    
+}
+.item {
+    margin-right: 1em;
+    width: 15%;
+}
+.article-1 {
+    background: palegoldenrod;
+   
+}
+.article-1 h2 + p {
+    color: red;
+}
+.article-2 {
+    background: palegreen;
+    
+}
+.article-3 {
+    background: paleturquoise;
+}
+.article-2 h2 ~ p{
+    color: red;
+}
+.article-3 p > span {
+    color: red;
+}

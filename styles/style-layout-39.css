@@ -1,0 +1,60 @@
+html {
+    font-size: 62.5%;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+
+.navigation {
+    display: inline-block;
+    width: 100%;
+    background: green;
+}
+.logo {
+    display: inline-block;
+    font-size: 2rem;
+    width: 10%;
+}
+.menu {
+    display: inline-block;
+    width: 30%;
+   margin-left: 58%;
+}
+.menu-item {
+    font-size: 2rem;
+    margin: 1.5rem 2rem;
+    display: inline-block;
+    
+}
+.container{
+    display: inline-block;
+    background: blue;
+    width: 100%;
+}
+.left-aside {
+    display: inline-block;
+    background: greenyellow;
+    width: 20%;
+   
+}
+.aside-item {
+    margin: 1.2rem;
+   padding: 3.5rem;
+   background-color: grey;
+    width:90%;
+    font-size: 3rem;
+}
+.main-content {
+    width: 78%;
+    background: hotpink;
+    display: inline-block;
+    font-size: 30rem;
+    text-align: center;
+    padding:2rem 1rem 2rem 1rem;
+    position: relative;
+    top: -10rem;
+   
+}
